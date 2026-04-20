@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio - Ingenieur Logiciel Full-Stack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">rio<span>.tech</span></a>
+            <ul>
+                <li><a href="#about">Profil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-tag">Ingenieur Logiciel Full-Stack</p>
+                <h1>Des produits web robustes, pensés pour durer.</h1>
+                <p class="hero-desc">Base a Bordeaux, j'aide les startups et les equipes techniques a concevoir des architectures modernes, a livrer rapidement et a maintenir leur code dans la duree. Du backend distribue au front performant.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">Decouvrir mes projets</a>
+                    <a href="#contact" class="btn-secondary">Discuter d'un projet</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-head">
+                <span class="section-num">01</span>
+                <h2>Profil</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Ingenieur logiciel diplome, j'ai passe les 7 dernieres annees a construire des applications web pour des secteurs varies : fintech, e-commerce, SaaS B2B et outils internes. J'ai travaille aussi bien en startup early-stage qu'en scale-up a forte contrainte de volumetrie.</p>
+                    <p>Je crois aux fondamentaux : un code lisible, une architecture simple qui repond aux besoins reels, et des tests qui protegent les choses importantes. Je prefere livrer petit et souvent plutot que gros et rarement.</p>
+                    <p>Hors travail, je mentore des devs juniors sur des plateformes communautaires, j'ecris parfois sur les sujets DevEx et j'explore les nouvelles briques de l'ecosysteme TypeScript / Rust.</p>
+                </div>
+                <aside class="about-card">
+                    <h3>En bref</h3>
+                    <ul>
+                        <li><strong>Localisation</strong><span>Bordeaux, FR</span></li>
+                        <li><strong>Experience</strong><span>7 ans</span></li>
+                        <li><strong>Disponibilite</strong><span>Freelance / CDI</span></li>
+                        <li><strong>Langues</strong><span>FR / EN</span></li>
+                        <li><strong>Remote</strong><span>Full remote OK</span></li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section id="services" class="section section-alt">
+            <div class="section-head">
+                <span class="section-num">02</span>
+                <h2>Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">&lt;/&gt;</div>
+                    <h3>Developpement full-stack</h3>
+                    <p>Conception et realisation d'applications web end-to-end, du schema de base de donnees jusqu'aux interfaces utilisateurs, avec une stack moderne et maintenable sur le long terme.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">API</div>
+                    <h3>Architecture & APIs</h3>
+                    <p>Conception d'APIs REST et GraphQL, choix d'architecture (monolithe modulaire, microservices, event-driven), revue de code et accompagnement technique pour equipes en croissance.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">[ ]</div>
+                    <h3>DevOps & Cloud</h3>
+                    <p>Mise en place de pipelines CI/CD, containerisation avec Docker, deploiement sur AWS, GCP ou Scaleway. Monitoring, logs centralises et strategies de scaling adaptees aux besoins reels.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">{ }</div>
+                    <h3>Audit & refonte</h3>
+                    <p>Audit technique de codebases existantes, identification des points de douleur, roadmap de refonte progressive et accompagnement des equipes lors des migrations majeures.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-head">
+                <span class="section-num">03</span>
+                <h2>Projets selectionnes</h2>
+            </div>
+            <div class="projects-list">
+                <article class="project-row">
+                    <div class="project-meta">
+                        <span class="project-year">2026</span>
+                        <span class="project-type">SaaS B2B</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Kairos Invoicing</h3>
+                        <p>Plateforme de facturation pour PME europeennes. Gestion multi-entites, TVA intra-communautaire, integrations bancaires via PSD2 et export comptable automatise. Architecture multi-tenant avec isolation stricte des donnees.</p>
+                        <div class="project-tech">
+                            <span>TypeScript</span><span>NestJS</span><span>PostgreSQL</span><span>Next.js</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-row">
+                    <div class="project-meta">
+                        <span class="project-year">2025</span>
+                        <span class="project-type">Fintech</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Meridian Trading Desk</h3>
+                        <p>Dashboard de trading temps reel pour une plateforme crypto. Flux WebSocket a haute frequence, graphiques TradingView personnalises, gestion d'ordres avancee et moteur de matching interne en Go.</p>
+                        <div class="project-tech">
+                            <span>Go</span><span>React</span><span>Redis</span><span>WebSocket</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-row">
+                    <div class="project-meta">
+                        <span class="project-year">2025</span>
+                        <span class="project-type">Outil interne</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Atlas Admin Console</h3>
+                        <p>Console d'administration pour une scale-up logistique. Gestion des utilisateurs, feature flags, visualisation cartographique des tournees et outils de debug pour le support niveau 2. Deployee sur Kubernetes.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>FastAPI</span><span>Vue 3</span><span>Kubernetes</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-row">
+                    <div class="project-meta">
+                        <span class="project-year">2024</span>
+                        <span class="project-type">E-commerce</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Maison Verdier</h3>
+                        <p>Refonte complete de la boutique en ligne d'une maison de champagne. Catalogue avec filtres complexes, configurateur de coffrets personnalises, paiement Stripe et integration au PIM existant.</p>
+                        <div class="project-tech">
+                            <span>Remix</span><span>Prisma</span><span>Stripe</span><span>Algolia</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="section-head">
+                <span class="section-num">04</span>
+                <h2>Stack technique</h2>
+            </div>
+            <p class="section-desc">Les outils que j'utilise regulierement. Je choisis la stack en fonction du probleme, pas l'inverse.</p>
+            <div class="stack-grid">
+                <div class="stack-col">
+                    <h4>Langages</h4>
+                    <p>TypeScript, Go, Python, Rust (en exploration), SQL, Bash</p>
+                </div>
+                <div class="stack-col">
+                    <h4>Backend</h4>
+                    <p>Node.js, NestJS, FastAPI, Gin, PostgreSQL, Redis, RabbitMQ, Elasticsearch</p>
+                </div>
+                <div class="stack-col">
+                    <h4>Frontend</h4>
+                    <p>React, Next.js, Vue 3, Remix, Tailwind CSS, TanStack Query, Vite</p>
+                </div>
+                <div class="stack-col">
+                    <h4>Infra</h4>
+                    <p>Docker, Kubernetes, Terraform, AWS, Scaleway, GitHub Actions, Grafana</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-head">
+                <span class="section-num">05</span>
+                <h2>Prendre contact</h2>
+            </div>
+            <p class="section-desc">Un projet en reflexion, un audit a mener ou juste envie d'echanger sur une problematique technique ? Je reponds sous 48 heures ouvrees, y compris pour les demandes exploratoires.</p>
+            <div class="contact-links">
+                <a href="mailto:contact@rio.tech" class="btn-primary">contact@rio.tech</a>
+                <a href="https://github.com/riophyts" class="btn-secondary">GitHub</a>
+                <a href="https://www.linkedin.com/in/riophyts" class="btn-secondary">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p>&copy; 2026 rio.tech - Tous droits reserves.</p>
+            <p>Construit a la main, sans framework, heberge sur GitHub Pages.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
