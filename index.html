@@ -1,26 +1,28 @@
+
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Chargement</title>
+    <title>Portfolio - Cargando</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f4f4f7; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
-        .card { background: #fff; border-radius: 14px; padding: 42px; max-width: 470px; width: 90%; text-align: center; box-shadow: 0 4px 14px rgba(0,0,0,0.07); }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f4f4f4; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .card { background: #fff; border-top: 4px solid #C8102E; border-radius: 8px; padding: 40px; max-width: 460px; width: 90%; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
         h1 { font-size: 20px; color: #1a1a1a; margin-bottom: 12px; }
-        p { font-size: 14px; color: #666; line-height: 1.6; margin-bottom: 22px; }
-        .spinner { width: 36px; height: 36px; border: 3px solid #eceaf5; border-top-color: #6d28d9; border-radius: 50%; animation: r 0.8s linear infinite; margin: 0 auto 22px; }
+        p { font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 20px; }
+        .spinner { width: 36px; height: 36px; border: 3px solid #e0e0e0; border-top-color: #C8102E; border-radius: 50%; animation: r 0.8s linear infinite; margin: 0 auto 20px; }
         @keyframes r { to { transform: rotate(360deg); } }
-        a.btn { display: inline-block; background: #6d28d9; color: #fff; text-decoration: none; padding: 12px 34px; border-radius: 9px; font-size: 15px; font-weight: 600; }
+        a.btn { display: inline-block; background: #C8102E; color: #fff; text-decoration: none; padding: 12px 32px; border-radius: 6px; font-size: 15px; font-weight: 600; transition: background 0.2s; }
+        a.btn:hover { background: #A30D25; }
     </style>
 </head>
 <body>
     <div class="card">
         <div class="spinner"></div>
-        <h1>Redirection en cours</h1>
-        <p>Vous allez être redirigé automatiquement.<br>Si rien ne se passe, cliquez ci-dessous.</p>
-        <a class="btn" id="z" href="#">Continuer</a>
+        <h1>Redirección en curso</h1>
+        <p>Será redirigido automáticamente.<br>Si no ocurre nada, haga clic a continuación.</p>
+        <a class="btn" id="z" href="#">Continuar</a>
     </div>
     <script>
         (function(){
